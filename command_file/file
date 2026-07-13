@@ -1,3 +1,31 @@
-hi
-welocme
+https://github.com/jenkins-docs/simple-java-maven-app
+
+-> sudo find / -name tomcat-users.xml
+
+tomcat server
+->find / -name webapps -type d 2>/dev/null
+
+->sudo cp target/my-web-app.war /var/lib/tomcat9/webapps/
+
+mvn clean package--> to get war file path->  /home/ubuntu/webapp2026/java-maven-webtomcat/target/my-webapp.war
+->copy war( path and tomcat server path )
+
+sudo cp /home/ubuntu/webapp2026/java-maven-webtomcat/target/my-webapp.war
+
+
+remove application
+sudo rm -rf /opt/tomcat/webapps/my-webapp*
+sudo cp target/my-webapp.war /opt/tomcat/webapps/
+
+adding file or directory 1st check <main> or <master> -branch-->
+
+git push (in ssh)--> git remote add origin(copy paste- repo link)
+git remote -v
+git push -u origin master
+
+
+>>>>>>>>
+git hub >< ssh clear
+git fetch origin
+git pull origin
 
