@@ -12,3 +12,13 @@ docketr-installation
   sudo systemctl enable docker
   sudo systemctl start docker
   sudo systemctl status docker
+................
+sudo docker images
+container check --> docker ps
+......
+pull image
+sudo docker pull ubuntu
+sudo docker images
+..........
+application install
+ sudo docker pull nginx
