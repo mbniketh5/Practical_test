@@ -6,5 +6,9 @@ development docker
 >>>>>>>>>>>>>>>
 what is docker->a platform for building ,running and shipping applications
   ->1 m/c can run 2 app simentatiously
-
-
+docketr-installation
+  apt install docker.io
+  chmod 660 /var/run/docker.sock
+  sudo systemctl enable docker
+  sudo systemctl start docker
+  sudo systemctl status docker
