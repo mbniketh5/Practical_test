@@ -22,3 +22,14 @@ sudo docker images
 ..........
 application install
  sudo docker pull nginx
+......................
+sudo sh -> docker ps 
+docker images --> id
+docker run -it (dicker images id)<paste
+inside container -> ls
+docker ps -a
+change name --> docker run -it -d --name (docker image id)
+exit from container 
+check status
+docker attach newcout(conatainer name)
+docker start newcout
