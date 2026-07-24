@@ -38,3 +38,11 @@ docker start newcout
 
 >>>>>>>>>>>>>>>>>>>>
 # docker exec -it goodwill /bin/bash
+>>>>>>>>>>.
+remove docker --/. docker rm <name>
+>>>
+remove stoped images and conatiner 
+docker system prune -a
+>>>>>>>>>>>>>>>
+docker pull images from docker-hub
+docker run -it -p 8080:8080 docker pull cleanstart/spring-boot:4.1.0-amd64
